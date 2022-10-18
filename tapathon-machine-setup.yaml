@@ -1,7 +1,7 @@
 apiVersion: learningcenter.tanzu.vmware.com/v1beta1
 kind: Workshop
 metadata:
-  name: machine-setup
+  name: tapathon-machine-setup
 spec:
   title: TAPathon Machine Setup
   description: Guides a TAPathon participant through steps required to setup their machine
@@ -16,6 +16,14 @@ spec:
   session:
     namespaces:
       budget: small
+      role: view
+    applications:
+      console:
+        enabled: false
+      editor:
+        enabled: false
+      terminal:
+        enabled: true
     env:
     - name: NODE_TLS_REJECT_UNAUTHORIZED
       value: "0"
