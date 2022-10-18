@@ -1,4 +1,5 @@
 # This should probably live somewhere else
+apiVersion: learningcenter.tanzu.vmware.com/v1beta1
 kind: TrainingPortal
 metadata:
   name: tapathon
