@@ -1,0 +1,13 @@
+# This should probably live somewhere else
+kind: TrainingPortal
+metadata:
+  name: tapathon
+spec:
+  portal:
+    registration:
+      type: anonymous
+  workshops:
+  - name: machine-setup
+    capacity: 10
+    expires: 1h
+    orphaned: 10m
