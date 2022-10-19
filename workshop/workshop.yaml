@@ -1,12 +1,13 @@
 name: TAPathon Machine Setup
 modules:
   activate:
+    - welcome
+    - git-cli
     - kubectl
+    - jdk17
+    - vmware-gitlab
     - tanzu-network
     - tanzu-cli
-    - git-cli
-    - vmware-gitlab
     - vscode
-    - jdk17
     - docker-desktop
     - tilt
