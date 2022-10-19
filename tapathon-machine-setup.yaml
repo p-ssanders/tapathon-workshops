@@ -10,9 +10,9 @@ spec:
     - Sam Sanders
   difficulty: beginner
   duration: 1h
-  url: https://gitlab.eng.vmware.com/ssanders/tapathon-machine-setup-workshop
+  url: https://github.com/p-ssanders/tapathon-machine-setup-workshop
   content:
-    files: gitlab.eng.vmware.com/ssanders/tapathon-machine-setup-workshop?ref=main
+    files: github.com/p-ssanders/tapathon-machine-setup-workshop?ref=main
   session:
     namespaces:
       budget: small

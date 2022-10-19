@@ -1,6 +1,18 @@
 modules:
+  welcome:
+    name: Welcome to the TAPathon
+    exit_sign: Next
+  git-cli:
+    name: Install the git CLI
+    exit_sign: Next
   kubectl:
     name: Install or Upgrade kubectl
+    exit_sign: Next
+  jdk17:
+    name: Install OpenJDK 17
+    exit_sign: Next
+  vmware-gitlab:
+    name: Confirm Access to VMware GitLab
     exit_sign: Next
   tanzu-network:
     name: Create an Account on Tanzu Network
@@ -8,17 +20,8 @@ modules:
   tanzu-cli:
     name: Download and Install the Tanzu CLI
     exit_sign: Next
-  git-cli:
-    name: Install the git CLI
-    exit_sign: Next
-  vmware-gitlab:
-    name: Confirm Access to VMware GitLab
-    exit_sign: Next
   vscode:
     name: Install Tanzu Developer Tools for VSCode
-    exit_sign: Next
-  jdk17:
-    name: Install OpenJDK 17
     exit_sign: Next
   docker-desktop:
     name: Install Docker Desktop
