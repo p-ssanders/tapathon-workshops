@@ -1,3 +1,1 @@
-#   Create an Account on Tanzu Network
-
-TODO
+Create an account or confirm you can login to [VMware Tanzu Network](https://network.tanzu.vmware.com/).

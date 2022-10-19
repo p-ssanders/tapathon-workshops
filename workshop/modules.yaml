@@ -6,7 +6,7 @@ modules:
     name: Install the git CLI
     exit_sign: Next
   kubectl:
-    name: Install or Upgrade kubectl
+    name: Install kubectl
     exit_sign: Next
   jdk17:
     name: Install OpenJDK 17
@@ -20,12 +20,12 @@ modules:
   tanzu-cli:
     name: Download and Install the Tanzu CLI
     exit_sign: Next
-  vscode:
-    name: Install Tanzu Developer Tools for VSCode
-    exit_sign: Next
   docker-desktop:
     name: Install Docker Desktop
     exit_sign: Next
   tilt:
     name: Install Tilt
+    exit_sign: Next
+  vscode:
+    name: Install Tanzu Developer Tools for VSCode
     exit_sign: Done

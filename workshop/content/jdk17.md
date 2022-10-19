@@ -1,3 +1,7 @@
-#   Install OpenJDK 17
+The first application we'll deploy is a Spring Boot web application that targets Java 17.
 
-TODO
+Install OpenJDK 17 using Homebrew:
+
+```
+brew install openjdk@17
+```

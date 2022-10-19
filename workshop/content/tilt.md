@@ -1,3 +1,5 @@
-#   Install Tilt
+Install Tilt using homebrew:
 
-TODO
+```
+brew install tilt
+```

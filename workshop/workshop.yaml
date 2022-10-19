@@ -8,6 +8,6 @@ modules:
     - vmware-gitlab
     - tanzu-network
     - tanzu-cli
-    - vscode
     - docker-desktop
     - tilt
+    - vscode
