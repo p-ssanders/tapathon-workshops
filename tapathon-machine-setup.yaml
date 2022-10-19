@@ -6,8 +6,6 @@ spec:
   title: TAPathon Machine Setup
   description: Guides a TAPathon participant through steps required to setup their machine
   vendor: tanzu.vmware.com
-  authors:
-    - Sam Sanders
   difficulty: beginner
   duration: 1h
   url: https://github.com/p-ssanders/tapathon-machine-setup-workshop
@@ -18,12 +16,8 @@ spec:
       budget: small
       role: view
     applications:
-      console:
-        enabled: false
-      editor:
-        enabled: false
       terminal:
-        enabled: true
+        enabled: false
     env:
     - name: NODE_TLS_REJECT_UNAUTHORIZED
       value: "0"
