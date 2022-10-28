@@ -8,9 +8,8 @@ spec:
   vendor: tanzu.vmware.com
   difficulty: beginner
   duration: 1h
-  url: https://github.com/p-ssanders/tapathon-machine-setup-workshop
   content:
-    files: github.com/p-ssanders/tapathon-machine-setup-workshop?ref=main
+    files: github.com/p-ssanders/tapathon-workshops/machine-setup?ref=main
   session:
     namespaces:
       budget: small

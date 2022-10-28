@@ -1,0 +1,4 @@
+name: TAPathon Onboarding
+modules:
+  activate:
+    - welcome

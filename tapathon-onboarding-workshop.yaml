@@ -1,0 +1,27 @@
+apiVersion: learningcenter.tanzu.vmware.com/v1beta1
+kind: Workshop
+metadata:
+  name: tapathon-onboarding
+spec:
+  title: TAPathon Onboarding
+  description: Guides a TAPathon participant through steps to onboard to TAP
+  vendor: tanzu.vmware.com
+  difficulty: beginner
+  duration: 1h
+  content:
+    files: github.com/p-ssanders/tapathon-workshops/onboarding?ref=main
+  session:
+    namespaces:
+      budget: small
+      role: view
+    applications:
+      terminal:
+        enabled: false
+    env:
+    - name: NODE_TLS_REJECT_UNAUTHORIZED
+      value: "0"
+    ingresses:
+    - name: nginx-via-proxy
+      protocol: http
+      host: nginx.$(session_namespace).svc.cluster.local
+      port: 8080
