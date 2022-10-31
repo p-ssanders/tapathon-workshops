@@ -8,7 +8,7 @@ modules:
   jdk17:
     name: Install OpenJDK 17
   vmware-gitlab:
-    name: Confirm Access to VMware GitLab
+    name: Setup Access to VMware GitLab
   tanzu-network:
     name: Create an Account on Tanzu Network
   tanzu-cli:
