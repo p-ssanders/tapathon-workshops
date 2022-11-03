@@ -3,7 +3,7 @@ kind: Workshop
 metadata:
   name: tapathon-onboarding
 spec:
-  title: TAPathon Onboarding
+  title: TAPathon Onboarding (WIP)
   description: Guides a TAPathon participant through steps to onboard to TAP
   vendor: tanzu.vmware.com
   difficulty: beginner
